@@ -1,0 +1,161 @@
+body{
+    color: #fff;
+    background-color:#295072;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    max-width: 1360px;
+}
+
+h1, h2, h3, .navbar li, .col-sm p {
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: 'Lovelo-Black', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background: url(img/font\ barre\ de\ tache.png) no-repeat;
+    max-width: 1360px;
+    width: 100%;
+}
+
+header .navbar{
+    padding-top: 65px;
+    font-family: 'Lovelo-Black', sans-serif;
+    font-size: 24px;
+    width: 100%;
+}
+
+#nav-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo{
+    position: relative;
+    width: 87px;
+}
+
+#logoimg{
+    position: absolute;
+    top: -30px; 
+}
+
+.banner{
+    background: url(img/banner.png) no-repeat;
+    height: 650px;
+}
+
+.services{
+    background: url(img/mes\ services\ Background.png) no-repeat;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 65px;
+    height: 400px;
+}
+
+.service-block ul{
+    font-size: 24px;  
+}
+
+.section-title{
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7b7b7;
+    color: #295072;
+    font-family: 'Lovelo-LineLight', sans-serif;
+    font-size: 37px;
+}
+
+.portfolio-section {
+    background-color: #dadada;
+    height: auto;
+}
+
+.portfolio .row{
+    margin-bottom: 50px ;
+    justify-content: center;
+}
+
+.portfolio{
+    margin-top: 58px;
+    padding-bottom: 70px;
+}
+
+.portfolio a{
+    height: fit-content;
+    margin-right: 45px;
+
+}
+
+.portfolio-item{
+   height: 198px;
+   width: 198px;
+   padding: 0;
+   position: relative;
+}
+
+.portfolio-item img{
+    mix-blend-mode: multiply;
+}
+
+.portfolio-title, .title-background{
+    position: absolute;
+    height: 177px;
+    width: 177px;
+    top: 10.5px;
+    left: 10.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lovelo-Black', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.title-background{
+    mix-blend-mode: multiply;
+    background-color: rgb(41, 80, 114);
+}
+
+.portfolio-title p{
+    margin: 0;
+}
+
+.footer{
+    height: 50px;
+    background: url(img/Rectangle\ 3.png) no-repeat;
+
+}
+
+.test{
+    height: 198px;
+    width: 198px;
+    background: url(img/portfolio/5\ fruits.png);
+    background-color: rgb(41, 80, 114);
+    background-blend-mode: multiply;
+}
+
+
+  
+
+
+
